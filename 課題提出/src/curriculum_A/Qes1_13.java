@@ -87,7 +87,8 @@ public class Qes1_13 {
 //6で作成した自己紹介に続いてBMIが出力されるようにしてください			
 		double m = 100;
 		//「BMIは○○です」	
-		System.out.println("BMIは"+(weight)/((height)/(m))/((height)/m)+"です");
+		double bmi = (weight)/((height)/(m))/((height)/m);
+		System.out.println("BMIは"+((double)Math.round(bmi*10))/10+"です");
 		
 //"で宣言した変数に再代入し下記の通りコンソールに出力してください"
 		name = "鈴木一郎";
@@ -105,6 +106,9 @@ public class Qes1_13 {
 		System.out.println("体重は"+(weight)+"kgです");
 		//「好きな食べ物はオムライスです」
 		System.out.println("好きな食べ物は"+(food)+"です");
+		//鈴木一郎のBMI
+		double bmi2 = (weight)/((height)/(m))/((height)/(m));
+		System.out.println("BMIは"+(double)Math.round((bmi2*10))/10+"です");
 	
 //8で使用した変数【年齢・身長・体重】の数値を和算で自己代入し、下記の通りコンソールに出力してください			
 		name = "鈴木一郎";
@@ -124,6 +128,7 @@ public class Qes1_13 {
 		System.out.println("好きな食べ物は"+(food)+"です");
 //8で使用した年齢が25歳以上ならtrueが出力されるようにしてください。ただしif文は使いません	
 		//変数ageが25以上ならturuと表示
+		age = 24;
 		System.out.println((age) > 25);
 		
 //8で使用した【年齢・身長・体重】を文字列型に型変換し繋げて出力してください
