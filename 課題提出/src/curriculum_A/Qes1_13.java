@@ -153,6 +153,6 @@ public class Qes1_13 {
 		System.out.println(height4);
 //12で変換した【年齢・身長】で【年齢が25もしくは身長が160以上】であればtrueを出力してください	
 		System.out.println((age3) == 25 || (height4) > 165);
-		}
+	}
 }
 
